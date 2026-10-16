@@ -1,0 +1,24 @@
+namespace PhamAnhQuan_Bai1
+{
+    public class Device
+    {
+        public string DeviceId { get; set; }
+
+        public string DeviceName { get; set; }
+
+        public string Category { get; set; }
+
+        public decimal Price { get; set; }
+
+        public int Quantity { get; set; }
+
+        public Device()
+        {
+            DeviceId = "";
+            DeviceName = "";
+            Category = "";
+            Price = 0;
+            Quantity = 0;
+        }
+    }
+}
